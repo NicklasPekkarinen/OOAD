@@ -15,6 +15,14 @@
 		BDA6442C264EE6C500CE8FD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDA6442A264EE6C500CE8FD2 /* LaunchScreen.storyboard */; };
 		BDA64437264EE6C500CE8FD2 /* PatternsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA64436264EE6C500CE8FD2 /* PatternsTests.swift */; };
 		BDA64442264EE6C500CE8FD2 /* PatternsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA64441264EE6C500CE8FD2 /* PatternsUITests.swift */; };
+		BDA64453264FFCE100CE8FD2 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA64452264FFCE100CE8FD2 /* Product.swift */; };
+		BDA64458264FFEB600CE8FD2 /* ShoppingCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA64457264FFEB600CE8FD2 /* ShoppingCart.swift */; };
+		BDA6445D265018FD00CE8FD2 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA6445C265018FD00CE8FD2 /* Protocols.swift */; };
+		BDA644632650198D00CE8FD2 /* CheapestFree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA644622650198D00CE8FD2 /* CheapestFree.swift */; };
+		BDA6446826501CC600CE8FD2 /* ThreeForTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA6446726501CC600CE8FD2 /* ThreeForTwo.swift */; };
+		BDA6446D2650227D00CE8FD2 /* TenPercentOffTotal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA6446C2650227D00CE8FD2 /* TenPercentOffTotal.swift */; };
+		BDA64472265023BF00CE8FD2 /* DiscountManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA64471265023BF00CE8FD2 /* DiscountManager.swift */; };
+		BDA644772650852E00CE8FD2 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = BDA644762650852E00CE8FD2 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +57,14 @@
 		BDA6443D264EE6C500CE8FD2 /* PatternsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PatternsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDA64441264EE6C500CE8FD2 /* PatternsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternsUITests.swift; sourceTree = "<group>"; };
 		BDA64443264EE6C500CE8FD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDA64452264FFCE100CE8FD2 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		BDA64457264FFEB600CE8FD2 /* ShoppingCart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCart.swift; sourceTree = "<group>"; };
+		BDA6445C265018FD00CE8FD2 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		BDA644622650198D00CE8FD2 /* CheapestFree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheapestFree.swift; sourceTree = "<group>"; };
+		BDA6446726501CC600CE8FD2 /* ThreeForTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeForTwo.swift; sourceTree = "<group>"; };
+		BDA6446C2650227D00CE8FD2 /* TenPercentOffTotal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenPercentOffTotal.swift; sourceTree = "<group>"; };
+		BDA64471265023BF00CE8FD2 /* DiscountManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountManager.swift; sourceTree = "<group>"; };
+		BDA644762650852E00CE8FD2 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +95,7 @@
 		BDA64413264EE6C100CE8FD2 = {
 			isa = PBXGroup;
 			children = (
+				BDA644762650852E00CE8FD2 /* .gitignore */,
 				BDA6441E264EE6C100CE8FD2 /* Patterns */,
 				BDA64435264EE6C500CE8FD2 /* PatternsTests */,
 				BDA64440264EE6C500CE8FD2 /* PatternsUITests */,
@@ -99,6 +116,7 @@
 		BDA6441E264EE6C100CE8FD2 /* Patterns */ = {
 			isa = PBXGroup;
 			children = (
+				BDA644612650197800CE8FD2 /* Discounts */,
 				BDA6441F264EE6C100CE8FD2 /* AppDelegate.swift */,
 				BDA64421264EE6C100CE8FD2 /* SceneDelegate.swift */,
 				BDA64423264EE6C100CE8FD2 /* ViewController.swift */,
@@ -106,6 +124,9 @@
 				BDA64428264EE6C500CE8FD2 /* Assets.xcassets */,
 				BDA6442A264EE6C500CE8FD2 /* LaunchScreen.storyboard */,
 				BDA6442D264EE6C500CE8FD2 /* Info.plist */,
+				BDA64452264FFCE100CE8FD2 /* Product.swift */,
+				BDA64457264FFEB600CE8FD2 /* ShoppingCart.swift */,
+				BDA6445C265018FD00CE8FD2 /* Protocols.swift */,
 			);
 			path = Patterns;
 			sourceTree = "<group>";
@@ -126,6 +147,17 @@
 				BDA64443264EE6C500CE8FD2 /* Info.plist */,
 			);
 			path = PatternsUITests;
+			sourceTree = "<group>";
+		};
+		BDA644612650197800CE8FD2 /* Discounts */ = {
+			isa = PBXGroup;
+			children = (
+				BDA644622650198D00CE8FD2 /* CheapestFree.swift */,
+				BDA6446726501CC600CE8FD2 /* ThreeForTwo.swift */,
+				BDA6446C2650227D00CE8FD2 /* TenPercentOffTotal.swift */,
+				BDA64471265023BF00CE8FD2 /* DiscountManager.swift */,
+			);
+			path = Discounts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +263,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDA644772650852E00CE8FD2 /* .gitignore in Resources */,
 				BDA6442C264EE6C500CE8FD2 /* LaunchScreen.storyboard in Resources */,
 				BDA64429264EE6C500CE8FD2 /* Assets.xcassets in Resources */,
 				BDA64427264EE6C100CE8FD2 /* Main.storyboard in Resources */,
@@ -258,9 +291,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDA64472265023BF00CE8FD2 /* DiscountManager.swift in Sources */,
+				BDA64458264FFEB600CE8FD2 /* ShoppingCart.swift in Sources */,
 				BDA64424264EE6C100CE8FD2 /* ViewController.swift in Sources */,
+				BDA64453264FFCE100CE8FD2 /* Product.swift in Sources */,
+				BDA6445D265018FD00CE8FD2 /* Protocols.swift in Sources */,
 				BDA64420264EE6C100CE8FD2 /* AppDelegate.swift in Sources */,
+				BDA6446826501CC600CE8FD2 /* ThreeForTwo.swift in Sources */,
+				BDA6446D2650227D00CE8FD2 /* TenPercentOffTotal.swift in Sources */,
 				BDA64422264EE6C100CE8FD2 /* SceneDelegate.swift in Sources */,
+				BDA644632650198D00CE8FD2 /* CheapestFree.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
